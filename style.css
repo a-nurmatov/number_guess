@@ -1,0 +1,62 @@
+
+body {
+  height: 100vh;
+  position: relative;
+}
+
+.container-fluid {
+  background-color: rgba(0, 0, 0, 0.651);
+  height: 100%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+}
+
+video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+h1 {
+  background-color: transparent;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 0.1px;
+}
+
+.btn {
+  padding: 4px 24px 8px;
+  font-size: 24px;
+  display: block;
+  margin: 20px auto 0;
+  background-color: rgba(0, 0, 0, 0.705);
+  border: 0;
+}
+
+.inputs {
+  margin-top: 20px;
+  display: none;
+}
+
+.hide {
+  display: none;
+}
+
+input {
+  font-size: 24px !important;
+  max-width: 800px;
+}
+
+input::placeholder {
+  font-size: 24px !important;
+}
+
+.comment {
+  font-size: 24px;
+}
+
+#answer {
+  background-color: rgba(0, 0, 0, 0.705);
+}

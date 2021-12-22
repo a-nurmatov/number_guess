@@ -17,20 +17,20 @@
 <body>
   <video src="dots.mp4" autoplay loop muted></video>
   <div class="container-fluid" id="container">
-    <h1 id="tries" class="text-white w-75 mx-auto text-center">Salom, men Robotman va men siz o'ylagan sonni eng kam urinishda topaman</h1>
-    <p class="text-center text-white inputs justify-content-center comment">Iltimos, biror son o'ylang va son joylashgan oraliqni kiriting (1 - Maksimumgacha):</p>
+    <h1 id="tries" class="text-white w-75 mx-auto text-center">I try to find the number you think with the least amount of tries</h1>
+    <p class="text-center text-white inputs justify-content-center comment">Please, think a number and enter the range from 1 to:</p>
     <div class="inputs w-50 mx-auto justify-content-center">
       <input type="number" class="form-control" id="max" placeholder="Maximum">
     </div>
-    <button class="btn btn-success mx-auto" onclick="start()" id="start">Boshlash</button>
-    <button class="btn btn-success mx-auto hide" onclick="submit()" id="submit">Topshirish</button>
+    <button class="btn btn-success mx-auto" onclick="start()" id="start">Start</button>
+    <button class="btn btn-success mx-auto hide" onclick="submit()" id="submit">Submit</button>
     <h1 class="hide text-white text-center w-25 mx-auto rounded py-3" id="answer"></h1>
-    <button class="btn btn-success mx-auto hide" onclick="guess()" id="guess">Boshladik!</button>
+    <button class="btn btn-success mx-auto hide" onclick="guess()" id="guess">Lets go!</button>
     <div id="high-low" class="hide">
-      <button class="btn btn-success mx-auto me-4" onclick="high()" id="high"><i class="fas fa-chevron-circle-up"></i> Yuqori</button>
-      <button class="btn btn-success mx-auto" onclick="low()" id="low"><i class="fas fa-chevron-circle-down"></i> Past</button>
+      <button class="btn btn-success mx-auto me-4" onclick="high()" id="high"><i class="fas fa-chevron-circle-up"></i> High</button>
+      <button class="btn btn-success mx-auto" onclick="low()" id="low"><i class="fas fa-chevron-circle-down"></i> Low</button>
     </div>
-    <button class="btn btn-success mx-auto hide" onclick="correct()" id="correct"><i class="fa fa-check-circle" aria-hidden="true"></i> To'gri</button>
+    <button class="btn btn-success mx-auto hide" onclick="correct()" id="correct"><i class="fa fa-check-circle" aria-hidden="true"></i> Correct</button>
     <button class="btn btn-success mx-auto hide" onclick="reload()" id="reload"><i class="fa-solid fa-arrows-rotate fa-2x"></i></button>
   </div>
   <script src="main.js"></script>
